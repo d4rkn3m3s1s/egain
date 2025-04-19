@@ -1,0 +1,188 @@
+/* .cursorrules - Cursor behavior definitions for eGain-SharePoint Integration */
+
+/* Default cursor */
+:root {
+    cursor: default;
+  }
+  
+  /* Interactive elements */
+  button, 
+  a, 
+  .clickable, 
+  .card:hover, 
+  .result-item:hover,
+  .nav-item:hover,
+  input[type="submit"] {
+    cursor: pointer;
+  }
+  
+  /* Text input areas */
+  input[type="text"], 
+  input[type="password"], 
+  input[type="email"],
+  input[type="search"],
+  textarea,
+  [contenteditable="true"],
+  .search-box {
+    cursor: text;
+  }
+  
+  /* Loading states */
+  .loading, 
+  .syncing, 
+  .processing,
+  button:disabled,
+  .progress-indicator {
+    cursor: wait;
+  }
+  
+  /* Draggable elements */
+  .draggable,
+  .sortable-item,
+  .resize-handle {
+    cursor: grab;
+  }
+  
+  .draggable:active,
+  .sortable-item:active,
+  .resize-handle:active {
+    cursor: grabbing;
+  }
+  
+  /* Help indicators */
+  .tooltip-trigger,
+  .info-icon,
+  [data-tooltip],
+  .help-text {
+    cursor: help;
+  }
+  
+  /* Text selection */
+  .document-content,
+  .preview-text,
+  .result-excerpt {
+    cursor: text;
+  }
+  
+  /* Resize operations */
+  .resize-horizontal {
+    cursor: ew-resize;
+  }
+  
+  .resize-vertical {
+    cursor: ns-resize;
+  }
+  
+  .resize-diagonal {
+    cursor: nwse-resize;
+  }
+  
+  /* Precision operations */
+  .file-picker,
+  .permission-checkbox,
+  .toggle-switch {
+    cursor: default;
+  }
+  
+  /* Not allowed */
+  .restricted-content,
+  .unauthorized,
+  .disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+  
+  /* Custom cursors for special interactions */
+  .zoom-in {
+    cursor: zoom-in;
+  }
+  
+  .zoom-out {
+    cursor: zoom-out;
+  }
+  
+  /* Search result hovering */
+  .search-result:hover {
+    cursor: pointer;
+  }
+  
+  /* Document preview */
+  .document-preview-control {
+    cursor: pointer;
+  }
+  
+  /* Permission settings */
+  .permission-selector {
+    cursor: pointer;
+  }
+  
+  /* Real-time query interface */
+  .query-box:focus {
+    cursor: text;
+  }
+  
+  .voice-input-button {
+    cursor: pointer;
+  }
+  
+  .voice-input-button.recording {
+    cursor: pointer;
+    /* Could add a custom cursor for recording state if needed */
+  }
+  
+  /* Admin panel interactions */
+  .config-toggle {
+    cursor: pointer;
+  }
+  
+  .sync-button {
+    cursor: pointer;
+  }
+  
+  .sync-button.syncing {
+    cursor: wait;
+  }
+  
+  /* Pagination controls */
+  .pagination-control {
+    cursor: pointer;
+  }
+  
+  .pagination-control.disabled {
+    cursor: not-allowed;
+  }
+  
+  /* Authentication buttons */
+  .auth-button {
+    cursor: pointer;
+  }
+  
+  /* Loading state during API operations */
+  .api-loading {
+    cursor: progress;
+  }
+  
+  /* Copy to clipboard functionality */
+  .copy-content {
+    cursor: pointer;
+  }
+  
+  /* Advanced search filters */
+  .filter-dropdown {
+    cursor: pointer;
+  }
+  
+  /* Date picker elements */
+  .calendar-control {
+    cursor: pointer;
+  }
+  
+  /* Custom cursor for SharePoint document handling */
+  .sp-document-item {
+    cursor: pointer;
+  }
+  
+  /* Animation states */
+  .transitioning {
+    cursor: progress;
+  }
